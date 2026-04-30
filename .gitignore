@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Data (large files)
+data/raw/*.parquet
+data/processed/
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Model artefacts
+models/**/*.pt
+models/**/*.lgb
+models/**/*.pkl
+models/**/*.json
+
+# OS
+.DS_Store
+Thumbs.db
