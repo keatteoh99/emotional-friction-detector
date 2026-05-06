@@ -155,8 +155,3 @@ At RM24.26 per prevented churn against RM102 median LTV_30d, ROI remains 4.2×.
   - Churn label: severity-driven proxy (delay + PCR + LTV + trigger + tap_interval_cv contribution) — churn_sensitivity identity leak removed
   - SHAP top-4: delay_minutes (0.303) > ltv_estimate_myr (0.118) > is_post_complaint_return (0.059) > tap_interval_cv (0.040)
   - tap_interval_cv at SHAP rank #4 confirms two-stage architecture coherence: LSTM detects via tap CV, LightGBM also ranks it as key churn predictor
-
-## Session instruction for Claude Code
-Always read this file before making changes. Update the status checklist above
-as modules are completed. When in doubt about a design decision, refer to the
-architecture section above — don't invent new patterns.
